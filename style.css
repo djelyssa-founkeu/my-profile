@@ -1,0 +1,186 @@
+/* Colors and fonts */
+body {
+	background: #FFFFFF;
+	color: rgb(50, 50, 50);
+	font-family: Helvetica;
+	font-size: 20px;
+	line-height: 2;
+	text-align: center;
+}
+
+h1, h2 {	
+	font-family: Arial;
+}
+
+h1 {
+	color: black;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 900;
+	font-size: 35px;
+}
+
+h2, h3 {
+	color: rgb(104, 193, 243);
+	font-size: 30px;
+	font-weight: 300;
+	font-family: 'Roboto', sans-serif;
+}
+
+p{
+	margin: 40px 50px 30px 50px;
+	text-align: justify;
+	font-size: 19px;
+
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	transition: color 0.3s ease;
+	font-weight: bold;
+}
+
+a:hover{
+	color: rgba(104, 193, 243, 1);
+	} 
+
+
+/* Custom design with class */
+
+.container {
+	width: 1200px;
+	margin: 40px auto;
+}
+
+#conteneur{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+
+
+@media (max-width: 760px) {
+	.contrainer {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.contrainer {
+		width: 400px;
+	}
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(196, 225, 241, 1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+	max-width: 150px;
+}
+
+#profilepic{ 
+	height: 250px;
+	border-radius: 100px;
+	float: left;
+	margin-bottom: 40px;
+ }
+
+.btn-blue {
+	background-color: rgba(104, 193, 243, 1);
+	color: white;
+	padding: 15px 20px;
+	border-radius: 50px;
+	margin: 10px;
+	justify-content: center;
+}
+
+
+.btn-blue:hover{
+	background-color: #f7fafc;
+	color: black;
+}
+
+#arrow{
+	background-color: rgba(104, 193, 243, 1);
+	height: 50px;
+	width: 50px;
+	justify-content: center;
+	margin-bottom: -17px;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i{
+	font-size: 50px;
+	color: black;
+}
+
+.list-inline i:hover{
+	color: pink;
+}
+
+#site_footer i{
+	font-size: 20px;
+	color: rgba(104, 193, 243, 1);
+}
+
+#site_footer div{
+	padding: 0px;
+}
+
+#site_footer i:hover{
+	color: #F4C0E7;
+}
+
+/* Design adjustements that concerns 1% of the website */
+
+#introduction p{
+	margin: 40px auto;
+	padding-top: 40px;
+    padding-right: 160px;
+    text-align: center;
+
+}
+
+#site_header ul{
+	margin: 40px 10px
+
+}
+
+#abt-me p{
+	margin: 40px 50px 30px 50px;
+	text-align: justify;
+	font-size: 19px;
+}
+	
+#introduction .list-inline{
+	clear: both;
+	margin-bottom: 0px;
+	display: flex;
+	justify-content: space-between;
+	font-size: 20px;
+}
+
+#scrollUp
+{
+position: fixed;
+bottom : 10px;
+right: -100px;
+opacity: 0.5;
+}
